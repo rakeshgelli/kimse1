@@ -17,16 +17,18 @@ const Signature=()=>{
           }
     }
     return(
-        <div style={{height:'500px',width:'500px',border:'2px solid black',marginLeft:'500px',marginTop:'200px'}}>
-            <SignatureCanvas ref={data =>setSign(data)} 
-            canvasProps={{ width: '500px', height: '500px' }} />
-            <button onClick={saveCanvasAsImage}>Save</button>
-            {signatureImage && (
         <div>
-          <h2>Signature Preview:</h2>
-          <img src={signatureImage} alt="Signature" style={{ maxWidth: '300px' }} />
-        </div>
-      )}
+        <h1>Hellow</h1>
+//         <div style={{height:'500px',width:'500px',border:'2px solid black',marginLeft:'500px',marginTop:'200px'}}>
+//             <SignatureCanvas ref={data =>setSign(data)} 
+//             canvasProps={{ width: '500px', height: '500px' }} />
+//             <button onClick={saveCanvasAsImage}>Save</button>
+//             {signatureImage && (
+//         <div>
+//           <h2>Signature Preview:</h2>
+//           <img src={signatureImage} alt="Signature" style={{ maxWidth: '300px' }} />
+//         </div>
+//       )}
         </div>
     )
 }
