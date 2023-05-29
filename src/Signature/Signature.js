@@ -17,6 +17,8 @@ const Signature=()=>{
           }
     }
     return(
+        <div>
+        <h1>HI</h1>
         <div style={{height:'500px',width:'500px',border:'2px solid black',marginLeft:'500px',marginTop:'200px'}}>
             <SignatureCanvas ref={data =>setSign(data)} 
             canvasProps={{ width: '500px', height: '500px' }} />
@@ -27,6 +29,7 @@ const Signature=()=>{
           <img src={signatureImage} alt="Signature" style={{ maxWidth: '300px' }} />
         </div>
       )}
+        </div>
         </div>
     )
 }
